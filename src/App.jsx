@@ -10,7 +10,7 @@ import ApiData from './pages/ApiData';
 function App() {
   return (
     <ThemeProvider>
-      <Router basename="/react-js-jsx-and-css-mastering-front-end-development-Goofy-collab">
+      <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
