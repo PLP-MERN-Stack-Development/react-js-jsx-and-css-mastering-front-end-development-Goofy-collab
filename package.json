@@ -1,5 +1,6 @@
 {
   "name": "react-js-jsx-and-css-mastering-frontend-development",
+  "homepage": "https://PLP-MERN-Stack-Development.github.io/react-js-jsx-and-css-mastering-front-end-development-Goofy-collab",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
@@ -25,6 +28,7 @@
     "eslint": "^9.36.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
+    "gh-pages": "^6.3.0",
     "globals": "^16.4.0",
     "tailwindcss": "^3.4.17",
     "vite": "^7.1.7"
