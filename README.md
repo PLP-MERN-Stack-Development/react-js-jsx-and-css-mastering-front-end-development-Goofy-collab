@@ -4,7 +4,7 @@ A modern, responsive task management application built with React, Vite, and Tai
 
 ## 🌟 Live Demo
 
-**Deployed URL:** [Add your deployment URL here after deploying]
+**Deployed URL:** https://curious-creponne-020df0.netlify.app
 
 ## 📸 Screenshots
 
